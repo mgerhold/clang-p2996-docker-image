@@ -39,3 +39,4 @@ jobs:
           labels: |
             org.opencontainers.image.source=${{ github.repository }}
             org.opencontainers.image.description=Clang p2996 dev container
+            org.opencontainers.image.license=Apache-2.0

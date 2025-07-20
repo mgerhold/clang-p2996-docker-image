@@ -31,3 +31,7 @@ docker run -it --rm ghcr.io/mgerhold/clang-p2996:latest /bin/bash
 From here, you can clone your project and build it using clang, CMake, Ninja, etc.
 
 Ideally, you'd use this image as a base for a dev container.
+
+## ⚖️ License
+
+This repo is licensed under MIT. It builds and distributes Bloomberg’s fork of LLVM (Apache 2.0 + LLVM Exceptions). Find a copy of their license file in LICENSES/.

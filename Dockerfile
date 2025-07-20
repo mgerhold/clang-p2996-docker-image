@@ -66,4 +66,6 @@ RUN apt-get update && \
       gdb && \
     rm -rf /var/lib/apt/lists/*
 
+COPY LICENSES/ /licenses/
+
 CMD ["/bin/bash"]
